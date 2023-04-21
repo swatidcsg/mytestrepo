@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mytestrepo
+  annotations:
+    github.com/project-slug: swatidcsg/mytestrepo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: kafka-integration
